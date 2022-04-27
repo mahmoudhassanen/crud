@@ -1,3 +1,9 @@
+*
+{
+  box-sizing: border-box;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +11,100 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #387373;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h2 
+{
+  padding: 18px;
+  color: #2D3E40;
+}
+.App{
+  padding: 30px;
+  background-color: #ffff;
+  width: 80%;
+  margin: 80px auto;
+  box-shadow: 1px 2px 5px #eee;
+}
+input {
+width: 80%;
+border: 0;
+padding: 6px 10px;
+background-color: #eBeBeB;
+
+}
+button 
+{
+  width: 20%;
+  border: 0;
+  padding: 6px 0;
+  margin: 0;
+  outline: 0;
+  color:white ;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #127369;
+
+  }
+  ul{
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+    padding: 0;
+  }
+  li{
+    margin: 15px 5px;
+  }
+  li span 
+  {
+    display: inline-block;
+    width: 60%;
+    color: #10403B;
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+  li > button:first-of-type:hover{
+    background-color: #127369;
+    color: white;
+  }
+  li > button:last-of-type:hover{
+    background-color: #BF665E;
+    
+    color: white;
+  }
+  li > button:first-of-type{
+    background-color: #127369;
+    width: 19%;
+    color: white;
+  }
+  li > button:last-of-type{
+    background-color: #BF665E;
+    color: white;
+
+  }
+  ul > form {
+    margin: 15px 0;
+
+  }
+.yes  {
+  width: 20%;
+  border: 0;
+  padding: 6px 0;
+  margin: 0;
+  outline: 0;
+  color:white ;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #127369;
+  border-radius: 0;
+  }
+  .yes:hover  {
+   
+    padding: 6px 0;
+    background-color: #127369;
+  color: white;
+    }
